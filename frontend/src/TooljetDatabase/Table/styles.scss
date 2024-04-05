@@ -24,7 +24,7 @@
 
 .tjdb-primary-key-parent {
   border-radius: 10px !important;
-  background-color: #D7DBDF !important;
+  background-color: #d7dbdf !important;
   padding: 0px 5px;
   display: flex;
   align-items: center;
@@ -49,7 +49,7 @@
   }
 
   td {
-    border: none !important
+    border: none !important;
   }
 }
 
@@ -71,8 +71,7 @@
     z-index: 1;
     position: sticky;
     left: 66px;
-    border-right: 2px solid var(--light-slate-08, #C1C8CD);
-    background-color: white;
+    border-right: 2px solid var(--light-slate-08, #c1c8cd);
   }
 
   th {
@@ -97,14 +96,12 @@
   th:nth-child(2) {
     z-index: 2;
     left: 66px;
-    border-right: 2px solid var(--light-slate-08, #C1C8CD);
+    border-right: 2px solid var(--light-slate-08, #c1c8cd);
   }
 
   .dark-background {
-
-    td:nth-child(1),
-    td:nth-child(2) {
-      background-color: #2B394A;
+    td:nth-child(1) {
+      background-color: #2b394a;
     }
   }
 
@@ -119,16 +116,15 @@
   }
 
   .tjdb-selected-cell {
-    border-color: var(--Indigo-09, #3E63DD);
+    border-color: var(--Indigo-09, #3e63dd);
   }
 
   .card-table tr td:last-child {
     padding: 0;
   }
-
 }
 
-.tjdb-loader-parent>span:first-child {
+.tjdb-loader-parent > span:first-child {
   height: 20px !important;
 
   .tjdb-loader {
@@ -166,7 +162,7 @@
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  background-color: #F1F3F5 !important;
+  background-color: #f1f3f5 !important;
   border-radius: 6px !important;
   margin: 0px auto 8px auto !important;
 }
@@ -193,7 +189,6 @@
 }
 
 .keyPress-actions {
-
   gap: 1.5rem;
 
   .navigate-keyActions,
@@ -228,7 +223,6 @@
 }
 
 .input-cell-parent {
-
   position: relative !important;
   background-color: transparent;
 
@@ -244,7 +238,6 @@
     height: 20px;
     font-size: 12px;
   }
-
 }
 
 .tjdb-cell-save-progress {
@@ -256,11 +249,11 @@
 }
 
 .progress::-webkit-progress-value {
-  background-color: var(--Indigo-09, #3E63DD) !important;
+  background-color: var(--Indigo-09, #3e63dd) !important;
 }
 
 .progress::-moz-progress-bar {
-  background-color: var(--Indigo-09, #3E63DD) !important;
+  background-color: var(--Indigo-09, #3e63dd) !important;
 }
 
 .toojet-db-table-footer {
@@ -272,7 +265,7 @@
 
   .table-cell {
     &:not(.table-cell-selected):hover {
-      background: var(--Slate-03, #F1F3F5) !important;
+      background: var(--Slate-03, #f1f3f5) !important;
     }
   }
 
@@ -287,17 +280,17 @@
 
   .dark-bg:not(.table-row-selected) {
     &:hover {
-      background: #22303C;
+      background: #22303c;
 
       td:nth-child(1),
       td:nth-child(2) {
-        background: #22303C;
+        background: #22303c;
       }
     }
 
     .table-cell {
       &:hover {
-        background: #1D252F !important;
+        background: #1d252f !important;
       }
     }
   }
